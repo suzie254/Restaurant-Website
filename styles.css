@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+* {
+    font-size: 28px;
+    font-family: 'Acme', sans-serif;
+
+
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%
+}
+
+.intro {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background: url("https://images.pexels.com/photos/374052/pexels-photo-374052.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    display: table;
+    top: 0;
+    background-size: cover;
+    background-position: 0%;
+
+}
+
+.intro .inner {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    max-width: none;
+}
+
+.content {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.content h1 {
+    font-family: 'Raleway', sans-serif;
+    color: #F9F4F4;
+    text-shadow: 0px 0px 300px #000;
+    font-size: 550%;
+}
+
+p {
+    font-size: 100%;
+    line-height: 200%;
+    text-align: justify;
+    margin: 3%;
+    font-family: sans-serif;
+}
+
+.card {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+
+#footer_banner {
+    position: fixed;
+    width: 100%;
+    opacity: 0.9;
+    background-color: beige;
+    margin-bottom: 0;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: -5%;
+}
+
+
+.fa:hover {
+    opacity: 0.3;
+}
+
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+/* intagram */
+.fa-intagram {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.link-footer {
+    float: right;
+}
+
+footer {
+    width: 100%;
+    color: white;
+    background-color: beige;
+    height: 7%;
+    text-align: center;
+    font-size: 24px;
+    bottom: 0;
+    margin-bottom: -3%;
+}
+
+h2 {
+    font-size: 800px;
+    color: none
+}
+
