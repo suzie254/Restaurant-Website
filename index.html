@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html>
-<div lang="en">
+<html lang="en">
 
     <head>
         <meta charset="UTF-8">
@@ -9,6 +8,9 @@
         <link rel="stylesheet" type="text/css" href="styles.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
             integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
     </head>
 
     <body>
@@ -21,26 +23,40 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
-                        <a class="nav-item nav-link active" href="#">Home </a>
-                        <a class="nav-item nav-link" href="#">About</a>
-                        <a class="nav-item nav-link" href="#">Menu</a>
+                        <a class="nav-item nav-link active" href="#index.html">Home </a>
+                        <a class="nav-item nav-link" href="#about">About</a>
+                        <a class="nav-item nav-link" href="#menu">Menu</a>
+
                         <!-- <a class="nav-item nav-link disabled" href="#">Disabled</a> -->
                     </div>
                 </div>
             </nav>
-            <h1 class="title">Welcome to Rummyrized Restaurant; <em>Where delicacies meet delicacy</em></h1>
-            <p>Where everythig is served hot!</p>
-            <div class="about">
+            <section class="intro">
+                <div class="inner">
+                    <div class="content">
+                        <h1 style="font-size:8vw">Welcome to Rummyrized Restaurant;</h1>
+
+                    </div>
+                </div>
+            </section>
+            <style>
+                .title{
+                    font-size: 12px;
+                }
+            </style>
+            <hr>
+            <div class="about" id="about">
                 <h2 class="text-center">About</h2>
-                <p><em>Our mission is to give our customers a place to celebrate life’s special moments by offering the
+                <p><b>Our mission is to give our customers a place to celebrate life’s special moments by offering the
                         best
-                        food, service, and ambiance in Kibra.</em></p>
-                <p><strong>link</strong></p>
+                        food, service, and ambiance in Kibra.</>
+                    <p class="text-center"><em>Where everythig is served hot!</em</p>
+
             </div>
         </div>
 
         <div class="container-fluid">
-            <h1 class="text-center">SCRUMPTIOUS MENUS</h1>
+            <h1 class="text-center" id="menu">SCRUMPTIOUS MENUS</h1>
             <div class="row">
                 <div class="col-md-4">
                     <div class="card">
@@ -48,7 +64,10 @@
                             <img src="https://images.pexels.com/photos/1653877/pexels-photo-1653877.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500
                             " width="110%" height="100%" alt="">
                             <p style="color: black;">
-                                We live in an age where Pizza <br>gets in your home before the <strong>police!</strong>
+                                <b>Pizza</b> is a savory dish of Italian origin, consisting of a usually round,
+                                flattened base of leavened wheat-based dough topped with tomatoes, cheese, and often
+                                various other ingredients baked at a high temperature, traditionally in a wood-fired
+                                oven.
                             </p>
                         </div>
                     </div>
@@ -60,7 +79,10 @@
                                 width="140%" alt="">
 
                             <p style="color: black;">
-                                Pizza is the only<br> <strong>love triangle</strong> I ever want.
+                                <b>Chiken with a mayonnaise</b> is a dish consisting of chicken pieces which have been
+                                coated in a seasoned batter and pan-fried, deep fried, or pressure fried. The breading
+                                adds a crisp coating or crust to the exterior of the chicken while retaining juices in
+                                the meat.
                             </p>
                         </div>
                     </div>
@@ -71,7 +93,8 @@
                             <img src="https://images.pexels.com/photos/2291367/pexels-photo-2291367.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
                                 width="100%" alt="">
                             <p style="color: black;">
-                                A <b>buffet</b> is a system of serving meals in which food is placed in a public area where the
+                                A <b>buffet</b> is a system of serving meals in which food is placed in a public area
+                                where the
                                 diners serve themselves. A form of service à la française, buffets are offered at
                                 various places including hotels, restaurants, and many social events.
 
@@ -101,7 +124,9 @@
                             <img src="https://images.pexels.com/photos/1352270/pexels-photo-1352270.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
                                 width="100%" height="450px" alt="">
                             <p style="color: black;">
-                                People disappoint<br><b>_@PizzaIsEternal!</b>
+                                <b>Chicken</b> and <b>chips </b>is a fast food made healthy; it is nutritious and
+                                consists of carbohydrate, fat and oil.
+
                             </p>
                         </div>
                     </div>
@@ -112,7 +137,8 @@
                             <img src="https://images.pexels.com/photos/1123250/pexels-photo-1123250.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
                                 width="100%" alt="">
                             <p style="color: black;">
-                                Problems come and go<br>Pizza is <b>forever.</b>
+                                <b>Chicken drumsticks</b>marinated in <b>Curried Mayonnaise</b> and roasted to
+                                perfection. The drumsticks are juicy and packed with curry flavors.
                             </p>
                         </div>
                     </div>
@@ -127,21 +153,34 @@
             <a href="https://twitter.com/hotel" class="fa fa-twitter"></a>
             <a href="https://www.instagram.com/hotel/" class="fa fa-instagram"></a>
         </footer>
+        <br>
+        <br>
+        <div class="footer-copyright text-center py-3">© 2020 Copyright: <em>Susan Akinyi</em>
+            <h6 class="footer-copyright text-center py-3">suzieakinyi08@gmail.com</h6>
+            <h6 class="footer-copyright text-center py-3">+254718922958</h6>
+          </div>
+        <!-- <a> name="Top section"</a>
+                  <p>Top section</p>
+                  <p><a href="homesection"> Goto home section</a></p>
 
+                  <p><a> href=#"aboutsection"> Goto about section</a></p>
+                  <a> name="Middle section"</a>
+                  <p>Middle  section</p>
 
+                  <p><a> href=#"menusection"> Goto menu section</a></p>
+                  <a> name="Bottom section"</a>
+                  <p>Bottom section</p> -->
 
-        <div class="card" style="width: 18rem;">
-            <img src="
-            " class="card-img-top" alt="...">
+        <!-- <div class="card" style="width: 18rem;">
             <div class="card-body">
                 <h5 class="card-title">Card title</h5>
                 <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
                     card's content.</p>
                 <a href="#" class="btn btn-primary">Go somewhere</a>
             </div>
-        </div>
+        </div> -->
 
-        <div class="container">
+        <!-- <div class="container">
             <div class="row">
                 <div class="col-sm">
                     One of three columns
@@ -153,11 +192,12 @@
                     One of three columns
                 </div>
             </div>
-        </div>
+        </div> -->
+
+</lang="en">
 
 </div>
 
-</div>
+</body>
 
 </html>
-</body>
